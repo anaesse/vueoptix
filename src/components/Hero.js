@@ -2,10 +2,10 @@ const Hero = () => {
 
 
     return (
-     <section className="bg-[#5A2047] h-[70vh]">
-         <div className="bg-white h-[70vh] w-[80%]">
+     <section className="bg-[#5A2047] h-[82vh]">
+         <div className="bg-white h-[82vh] w-[80%]">
              <div className="px-4 sm:px-24 lg:px-28 pt-28 ">
-                 <div className="w-[50%] h-[30vh]">
+                 <div className="w-[50%] h-[48vh]">
 
                  <span className="text-base font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#0A27BF]  to-[#FF2626]">Welcome</span>
                  <h1 className="text-3xl lead-[60px] py-2">Experience a better vision and a better life with ease</h1>

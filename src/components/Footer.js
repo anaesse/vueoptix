@@ -1,12 +1,9 @@
 import { IoMailOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
-import { IoLocationOutline } from "react-icons/io5";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
     return (    
-        <footer className="px-4 sm:px-24 lg:px-28 py-12  bg-[#5A2047]">
+        <footer className="px-4 sm:px-24 lg:px-28 py-12 mt-32  bg-[#5A2047]">
     <div className="lg:flex gap-24 lg:gap-32">
         <div className="mb-6 md:mb-2">
                 <div>
