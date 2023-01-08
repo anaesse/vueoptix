@@ -2,44 +2,36 @@ export const ServicesData = [
     {
         id: 1,
         title: "FRAME AND LENS",
-        img: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/blue_light_4_v3b89s.jpg",
         description: "Stylish collection of frames suitable for various occasion.",
         imgArr: [
             {
-                url: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                title: "One"
-            },
+                url: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/blue_light_4_v3b89s.jpg",
+                title: "FRAME AND LENS"
+            }
         ]
     },
     {
         id: 2,
-        title: "HOME SERVICES",
-        img: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        description: "Professional consultation with optometrists near you.Professional consultation with optometrists near you.",
+        title: "CONSULTATION",
+        img: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/optomrtry_1_pjxlr0.webp",
+        description: "Professional consultation with optometrists near you.",
         imgArr: [
             {
-                url: "https://res.cloudinary.com/dpi44zxlw/image/upload/v1672598730/cld-sample-5.jpg",
-                title: "One"
-            },
-            {
-                url: "https://res.cloudinary.com/dpi44zxlw/image/upload/v1672598730/cld-sample-3.jpg",
-                title: "two"
+                url: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/optomrtry_1_pjxlr0.webp",
+                title: "CONSULTATION"
             }
         ]
     },
     {
         id: 3,
-        title: "CONSULTATION",
-        img: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        title: "HOME SERVICES",
+        img: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/blue_light_4_v3b89s.jpg",
         description: "Worried about how your frame fits? We got you.",
         imgArr: [
             {
-                url: "https://res.cloudinary.com/dpi44zxlw/image/upload/v1672598730/cld-sample-4.jpg",
-                title: "One"
-            },
-            {
-                url: "https://res.cloudinary.com/dpi44zxlw/image/upload/v1672598730/cld-sample-2.jpg",
-                title: "two"
+                url: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/blue_light_4_v3b89s.jpg",
+                title: "HOME SERVICES"
             }
         ]
     },

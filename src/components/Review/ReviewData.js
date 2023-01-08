@@ -1,16 +1,16 @@
 export const ReviewData = [
     {
         id: 1,
-        img: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/blue_light_3_xud2bo.webp",
 
     },
     {
         id: 2,
-        img: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/blue_light_3_xud2bo.webp",
     },
     {
         id: 3,
-        img: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205632/VueOptix/blue_light_3_xud2bo.webp",
     },
 
 ];

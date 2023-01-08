@@ -5,7 +5,7 @@ import "../../App.css";
 const Navbar = () => {
   return (
     <nav className="bg-[#5A2047] border-[#5A2047] h-[120px] px-4 sm:px-24 lg:px-28 py-2.5 flex itewms-center ">
-      <div className="container flex flex-wrap items-center justify-between mx-auto">
+      <div className="container flex flex-wrap items-center lg:gap-[85px] NavBar mx-auto">
         <a href="/" className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap bg-clip-text text-transparent bg-gradient-to-r from-[#0A27BF] via-[#FF2626] to-[#C109d1] ">VueOPtix</span>
         </a>

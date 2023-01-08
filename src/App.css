@@ -1,7 +1,29 @@
 .link {
   color: #FFFDFD;
-  padding: 0 15px 5px 15px;
 }
 .active {
+  padding: 0 15px 5px 15px;
   border-bottom: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 1440px) {
+  .NavBar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .Hero-session{
+    height: 82vh;
+  }
+  .Hero-container{
+    height: 82vh;
+  }
+}
+@media screen and (max-width: 1075px) {
+ 
+  .Hero-session{
+    height: 100vh;
+  }
+  .Hero-container{
+    height: 100vh;
+  }
 }
