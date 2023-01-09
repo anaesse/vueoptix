@@ -12,12 +12,10 @@ function AnimatedImage({ imge }) {
     const [counter, setCounter] = React.useState(1);
     const [hover, setHover] = React.useState(false);
 
-    console.log(random[Math.floor(Math.random() * 7)])
-
     const texts = imge.map(i => {
         return <Fragment key={i.url}>
             <StyledImageBlock imag={i.url} className="h-60 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center rounded-[10px] ">
-                <p class=" h-60 flex items-end justify-center text-[#FFFDFD] font-[800] text-[24px] lead-[36px]">{i.title}</p>
+                <p className=" h-60 flex items-end justify-center text-[#FFFDFD] font-[800] text-[24px] lead-[36px]">{i.title}</p>
             </StyledImageBlock>
         </Fragment>
     })
