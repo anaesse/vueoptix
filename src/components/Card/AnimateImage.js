@@ -48,7 +48,7 @@ function AnimatedImage({ imge }) {
             onMouseEnter={hoverOn}
             onMouseLeave={hoverOff}
             key={counter}
-            initial={{ opacity: 0.2 }}
+            initial={{ opacity: 0.3 }}
             animate={{ opacity: 1 }}
             transition={{ duration: random[Math.floor(Math.random() * 7)] }}
         >
