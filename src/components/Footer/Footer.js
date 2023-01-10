@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="mb-6 md:mb-2">
                     <div>
                         <a href="/">
-                            <span class="self-center text-base font-semibold whitespace-nowrap bg-clip-text text-transparent bg-gradient-to-r from-[#0A27BF] via-[#FF2626] to-[#C109d1] ">VueOPtix</span>
+                            <span className="self-center text-base font-semibold whitespace-nowrap bg-clip-text text-transparent bg-gradient-to-r from-[#0A27BF] via-[#FF2626] to-[#C109d1] ">VueOPtix</span>
                         </a>
                         <ul className="text-white">
                             <li className="flex items-center pt-2 gap-1">
