@@ -7,10 +7,10 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .NavBar{
+  /* .NavBar{
     display: flex;
     justify-content: space-between;
-  }
+  } */
   .Hero-session{
     height: 82vh;
   }
@@ -25,5 +25,20 @@
   }
   .Hero-container{
     height: 100vh;
+  }
+
+}
+@media screen and (min-width: 1076px) {
+  .NavLinks{
+    gap: 115px;
+  }
+  .Hero-image{
+    height: 450px;
+  }
+  .Hero-session{
+    height: 80vh;
+  }
+  .Hero-container{
+    height: 80vh;
   }
 }
