@@ -14,7 +14,7 @@ const Hero = () => {
                 </div>
              
 
-            <div className="flex justify-center lg:absolute lg:top-0 lg:right-0 lg:translate-x-1/3 lg:translate-y-14 Hero-image h-[48%] sm-[55%] md:h-56 lg:w-[420px] lg:h-[450px] mx-auto">
+            <div className="flex justify-center lg:absolute lg:top-0 lg:right-0 lg:translate-x-1/3 lg:translate-y-14 Hero-image h-[57vh]  md:h-56 lg:w-[420px] lg:h-[450px] mx-auto">
                     <img src="https://res.cloudinary.com/dgts9q1iq/image/upload/v1673205633/VueOptix/optometrist_nxybcb.jpg" alt="people"  style={{ width: '100%', height: "100%", objectFit: "cover" }}  />
                 </div>
                 <div className="hidden lg:block lg:absolute lg:right-0 lg:bottom-6 lg:-translate-x-60 Hero-image2 ">
