@@ -36,7 +36,7 @@ function AnimatedImage({ imge }) {
                 } else {
                     setCounter((prev) => prev + 1);
                 }
-            }, 4000);
+            }, 7000);
             return () => clearTimeout(timer);
         }
     }, [counter, hover, texts.length]);

@@ -14,13 +14,13 @@ const Navbar = () => {
         </a>
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute top-10 right-10  cursor-pointer md:hidden "
+          className="text-3xl absolute top-10 right-10  cursor-pointer md:hidden text-white "
         >
-          <ion-icon name={open ? "close" : "menu"}></ion-icon>
+          <ion-icon name={open ? "close" : "menu"} ></ion-icon>
         </div>
 
         <ul
-          className={`bg-[#5A2047] md:flex md:items-center md:gap-4 lg:gap-14 md:pb-0 pb-12 md:mt-3 absolute md:static  md:z-auto left-0 w-full md:w-auto md:pl-0  NavLinks transition-all duration-500 ease-in ${
+          className={`bg-[#5A2047] md:flex md:items-center md:gap-4 lg:gap-14 md:pb-0 pb-12 md:mt-3 absolute md:static  md:z-auto left-0 w-full  md:w-auto md:pl-0  NavLinks transition-all duration-500 ease-in ${
             open ? "top-20 " : "top-[-490px]"
           }`}
         >
